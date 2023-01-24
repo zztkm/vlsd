@@ -1,10 +1,10 @@
 package lsd
 
-func StringDistance(lhs, rhs string) int {
+func StringDistance(lhs string, rhs string) int {
 	return Distance([]rune(lhs), []rune(rhs))
 }
 
-func Distance(lhs, rhs []rune) int {
+func Distance(lhs []rune, rhs []rune) int {
 	rl1, rl2 := len(lhs), len(rhs)
 
 	// make distance from the root
