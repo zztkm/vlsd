@@ -10,7 +10,7 @@ import zztkm.vlsd
 distance := vlsd.string_distance("Hello", "Helllo")
 ```
 
-module doc: (docs/lsd.md)(docs/lsd.md)
+module doc: [docs/lsd.md](docs/lsd.md)
 
 ## Installation
 
