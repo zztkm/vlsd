@@ -7,7 +7,7 @@ mut:
 	want int
 }
 
-pub fn test_distance(t &testing.T) {
+fn test_distance() {
 	mut tests := [
 		Go2VInlineStruct{'こんにちわ世界', 'こんにちわ世界', 0},
 		Go2VInlineStruct{'こんにちわ世界', 'こにゃちわ世界', 2},
@@ -18,9 +18,7 @@ pub fn test_distance(t &testing.T) {
 		Go2VInlineStruct{'こんにちわ世界', '世界', 5},
 	]
 	for _, test in tests {
-		mut got := string_distance(test.lhs, test.rhs)
-		if got != test.want {
-			t.fatalf('want %v but %v: %v vs %v', test.want, got, test.lhs, test.rhs)
-		}
+		got := string_distance(test.lhs, test.rhs)
+		assert got == test.want
 	}
 }
