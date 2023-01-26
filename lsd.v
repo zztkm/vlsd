@@ -1,4 +1,4 @@
-module lsd
+module vlsd
 
 // distance returns the levenshtein distance between two `[]rune`
 pub fn distance(lhs_1 []rune, rhs_1 []rune) int {
