@@ -20,7 +20,7 @@ v install zztkm.vlsd
 
 ## LICENSE
 
-MIT (See [LICENSE.md](LICENSE.md))
+MIT (See [LICENSE](LICENSE))
 
 This project is a translation and modification of the mattn/lsd source code into v.
 mattn/lsd: https://github.com/mattn/go-lsd
