@@ -1,4 +1,4 @@
-module lsd
+module vlsd
 
 struct Go2VInlineStruct {
 mut:
